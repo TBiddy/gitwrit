@@ -1,6 +1,6 @@
 # gitwrit Extensions
 
-gitwrit is designed to be extended. This document describes the three supported extension surfaces, how they work, and how to build one.
+**gitwrit** is designed to be extended. This document describes the three supported extension surfaces, how they work, and how to build one.
 
 Extensions are loaded from your `~/.gitwritrc.json` config under an `"extensions"` key:
 
@@ -146,8 +146,8 @@ And register it in their config:
 
 ## Things to keep in mind
 
-- Extensions run inside the daemon process — unhandled errors can crash the watcher. Wrap async operations in `try/catch`.
-- The daemon restarts automatically on `gitwrit restart` — extensions are reloaded each time.
+- Extensions run inside the daemon process—unhandled errors can crash the watcher. Wrap async operations in `try/catch`.
+- The daemon restarts automatically on `gitwrit restart`—extensions are reloaded each time.
 - If you are building an output integration that calls an external API, make it resilient to network failures. A failed push notification should never block the commit cycle.
 - Keep extensions focused. One extension, one concern.
 

@@ -1,6 +1,6 @@
 # Contributing to gitwrit
 
-Thank you for your interest in contributing. gitwrit is built for people who write seriously, and contributions that share that spirit are welcome at every level — from adding a single word to the branch name lists, to building new file type support, to improving the core daemon.
+Thank you for your interest in contributing. **gitwrit** is built for people who write seriously, and contributions that share that spirit are welcome at every level—from adding a single word to the branch name lists, to building new file type support, to improving the core daemon. We also acknowledge that mentioning *spirits* and *daemons* in the same sentence is a little *spooky*, but we assure you that was the last *daemon* joke in this documentation.
 
 ---
 
@@ -27,11 +27,11 @@ gitwrit is designed to be extended. See [EXTENSIONS.md](EXTENSIONS.md) for docum
 
 ### Bug fixes and improvements
 
-If something is broken, open an issue first so we can align on the fix before you spend time on a pull request. For small, obvious fixes, a PR is fine directly.
+If you see something broken, please open an issue first so we can align on a fix before you spend too much time on a pull request. For small, obvious fixes, a direct PR is fine.
 
 ### New commands or flags
 
-The command surface is intentionally lean. Open an issue to discuss before building — we want to make sure new commands earn their place.
+The commands are intentionally minimal. Please open an issue to discuss before building—we want to make sure new commands help keep them simple and easy to use.
 
 ---
 
@@ -88,10 +88,11 @@ A few things worth knowing before you dig in:
 
 ## Code style
 
-- Keep it readable — a future contributor should be able to understand what a function does without reading the whole file
+- Please keep it readable so future contributors understand what a function does without reading the whole file
 - Comment the *why*, not the *what*
 - One concern per file — if a file is growing, it probably wants to be split
 - Proof your CLI output — copy and terminal output are part of the product; read your output before submitting
+- **Important:** It is absloutely fine to use AI tools for commits, as this was also built with the help of Claude Code.
 
 ---
 
@@ -118,7 +119,7 @@ If something is not working, please include:
 
 ## Code of conduct
 
-Be kind. gitwrit is built for a broad audience — engineers, researchers, writers, students. Contributions and conversations should be welcoming to all of them.
+Please be kind. 🙏 gitwrit is built for a broad audience — engineers, researchers, writers, students. Contributions and conversations should be welcoming to all of them. Humor is welcome as long it is inclusive.
 
 ---
 
