@@ -40,7 +40,7 @@ gitwrit init    # first run sets up global defaults + registers this directory
 gitwrit start   # start watching
 ```
 
-That is it. Write something, save it, and gitwrit commits it.
+That's it. Write something, save it, and gitwrit commits it. 
 
 ---
 
@@ -103,15 +103,17 @@ gitwrit supports two branch modes, configurable globally or per directory.
 
 ## Why not Google Docs, Notion, or Obsidian Sync?
 
-Those tools store your files on their infrastructure. gitwrit does not. Your writing lives in a plain Git repository that you control, pushed wherever you want — GitHub, GitLab, a private server, anywhere that accepts a Git remote.
+Those tools store your files on their infrastructure. gitwrit does not. Your writing lives in a plain Git repository that you control, pushed wherever you want—GitHub, GitLab, a private server, anywhere that accepts a Git remote.
 
-This is especially useful for proprietary documentation — internal specs, research notes, model cards, experiment logs — where putting files into a third-party cloud is not an option.
+Just to be clear, there's defnitely nothing wrong with using any of these tools. I use them!
+
+But I thought making this might be especially useful for proprietary documentation like internal specs, research notes, model cards, experiment logs, etc. For when putting files into a third-party cloud is not an option, or when you want to keep everything essential to your codebase **all in one place**.
 
 ---
 
 ## Open source
 
-gitwrit is open source and built to be extended. Contributions are welcome at every level — word lists, new file type support, commit message formatters, and more. See [CONTRIBUTING.md](CONTRIBUTING.md) and [EXTENSIONS.md](EXTENSIONS.md) to get started.
+gitwrit is open source and built to be extended. Contributions are welcome at every level—word lists, new file type support, commit message formatters, and more. See [CONTRIBUTING.md](CONTRIBUTING.md) and [EXTENSIONS.md](EXTENSIONS.md) to get started.
 
 ---
 
