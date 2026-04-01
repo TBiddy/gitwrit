@@ -32,6 +32,18 @@ yarn global add gitwrit
 
 ---
 
+## Updating
+
+To update gitwrit to the latest version:
+```sh
+npm install -g gitwrit@latest
+```
+
+Starting from v0.2.1, gitwrit will automatically notify you when a new version
+is available after every command—so you will never need to check manually again.
+
+---
+
 ## Quick start
 
 ```sh
@@ -100,6 +112,7 @@ gitwrit checks for updates automatically after every command. If a newer version
 ```
   · Update available: 0.2.1 → 0.3.0   Run npm install -g gitwrit to update.
 ```
+
 
 The check runs in the background, caches for 24 hours, and fails silently if you are offline. It will never interrupt or slow down your workflow.
 
