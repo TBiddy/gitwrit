@@ -5,6 +5,7 @@ import { dirname, join } from 'path';
 import ora from 'ora';
 
 import { print } from '../ui.js';
+import { renderBanner } from '../banner.js';
 import { PID_FILE, GITWRIT_DIR } from '../paths.js';
 import { globalConfigExists, loadGlobalConfig } from '../settings.js';
 import { readState, STATE } from '../state.js';
@@ -77,6 +78,8 @@ export async function start() {
   }
 
   await mkdir(GITWRIT_DIR, { recursive: true });
+
+  renderBanner();
 
   // spinner while daemon spins up
   const spinner = ora({
